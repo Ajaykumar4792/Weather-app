@@ -55,6 +55,11 @@ async function checkWeather(city) {
 
         case 'Mist':
             photo.src = "./Images/mist.png";
+            break;
+
+        case 'Partlycloudy':
+            photo.src = "./Images/partlycloudy.png";
+            break;
     }
 
 }
